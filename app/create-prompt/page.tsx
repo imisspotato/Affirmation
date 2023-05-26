@@ -22,7 +22,7 @@ const CreatePrompt = () => {
       const currentUser = session.user;
       if (currentUser) {
         if (
-          currentUser?.email === "muhiarobinonyancha@gmail.com" ||
+          currentUser?.email === "valencia@mytsi.org" ||
           currentUser?.email === "alpha01ashley@gmail.com" ||
           currentUser?.email === "robinonyancha123@gmail.com" ||
           currentUser?.email === "naomimuhia250@gmail.com"
