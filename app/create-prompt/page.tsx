@@ -43,7 +43,7 @@ const CreatePrompt = () => {
     try {
       const gptResponse = await getAffirmation(post.prompt, post.user);
       if (
-        post.user === "muhiarobinonyancha@gmail.com" ||
+        post.user === "valencia@mytsi.org" ||
         post.user === "alpha01ashley@gmail.com"
       ) {
         const response = await fetch("/api/prompt/new", {
